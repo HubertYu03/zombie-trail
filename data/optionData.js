@@ -1,4 +1,4 @@
-export const titleData = {
+const titleData = {
     title: true,
     selectable: true,
     question: null,
@@ -23,7 +23,7 @@ export const titleData = {
     tooltip: null
 }
 
-export const loreData = {
+const loreData = {
     title: true,
     selectable: false,
     question: null,
@@ -34,4 +34,9 @@ export const loreData = {
         But on July 4, 1980, the zombie virus landed in eastern United States.`
     ],
     tooltip: "Press SPACE BAR to continue"
+}
+
+export const optionData = {
+    title: titleData,
+    lore: loreData
 }
