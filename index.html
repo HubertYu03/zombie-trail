@@ -17,14 +17,16 @@
     <div>
       <p id="question"></p>
 
-      <p>You may:</p>
+      <p id="you-may">You may:</p>
 
       <ol id="options"></ol>
 
-      <div class="input-container">
+      <div class="input-container" id="input">
         <p>What is your choice?</p>
-        <input type="text" class="input-box" id="choice" autofocus autocomplete="off">
+        <input type="text" maxlength="1" class="input-box" id="choice" autofocus autocomplete="off">
       </div>
+
+      <div class="tooltip" id="tooltip"></div>
     </div>
 
   </div>
